@@ -1,0 +1,10 @@
+print("Par ou Ímpar?\n")
+x=int(input("Digite um número: "))
+if x!=0:
+ i = x % 2
+ if i == 0:
+   print("par")
+ else:
+   print("ímpar")
+else:
+  print("zero")
