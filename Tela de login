@@ -1,0 +1,9 @@
+from google.colab import output
+usuario=str(input("Digite o usuário: "))
+senha=str(input("Digite a senha: "))
+output.clear()
+if usuario=="admin" and senha=="admin@123":
+  print("Bem vindo!!")
+else:
+  print("Usuário ou Senha inválido")
+#credits: Lucas Augusto
