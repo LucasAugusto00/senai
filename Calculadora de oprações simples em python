@@ -1,0 +1,30 @@
+from google.colab import output
+print("CALCULARORA")
+n=int(input("Digite (1) para soma, (2) para subtração, (3) para multiplicação, (4) para divisão:\n"))
+output.clear()
+
+if n>4 or n<1:
+ print("Número inválido!")
+else:
+ output.clear()
+ x=float(input("Digite o primeiro número: "))
+ y=float(input("Digite o segundo número: "))
+
+if n==1:
+ output.clear()
+ print("O resultado da Soma é:",x+y)
+if n==2:
+ output.clear()
+ print("O resultado da Subtração é:",x-y)
+if n==3:
+ output.clear()
+ print("O resultado da Multiplicação é:",x*y)
+if n==4:
+  output.clear()
+  if y==0:
+    print("Não é possivel dividir um número por zero!")
+  else:
+    print("O resultado da Divisão é:",x/y)
+
+#credits: Lucas Augusto
+#Senai ead 18/08/23
